@@ -87,7 +87,7 @@ Recurso | Método | Autenticado? | Objetivo | Retorno
 /perfil | GET | Não | Últimos 5 perfis cadastrados | Lista de Perfis JSON
 /perfil/:id | GET | Não | Busca um perfil por ID | Perfil JSON 
 /perfil | POST | Não | Cadastrar um perfil | Perfil JSON
-/perfil | PUT | Sim | Editar um perfil | Perfil JSON
+/perfil/:id | PUT | Sim | Editar um perfil | Perfil JSON
 /perfil/conexao | POST | Sim | Conecta dois perfis (Conexão/Amizade) | Mensagem JSON
 
 ## Login
